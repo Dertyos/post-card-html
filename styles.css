@@ -1,15 +1,17 @@
 body {
 	background: black;
+	
 }
 
 .postcard {
 	background: white;
 	width: 400px;
-	height: 300px;
+	height: 350px;
 	margin: auto;
 }
 .postcard-header {
 	display: flex;
+	margin: 10px;
 }
 
 .postcard-header img {
@@ -24,6 +26,7 @@ body {
 
 .postcard-body {
 	display: flex;
+	
 }
 
 .body-left p:first-child {
@@ -33,6 +36,9 @@ body {
 .body-left,
 body-right {
 	padding: 25px;
+}
+.body-right {
+	margin-right: 25px;
 }
 
 input {
